@@ -1,0 +1,112 @@
+what is verticle scaling and horizontal scaling
+horizontal scaling means adding more servers (or instances) to handle increased load, while vertical scaling means increasing the resources (CPU, RAM, etc.) of an existing server. Essentially, horizontal scaling adds more machines, while vertical scaling makes existing machines more powerful. 
+
+
+
+what is RDS
+a web service offered by Amazon Web Services (AWS) that simplifies the process of setting up, operating, and scaling relational databases in the cloud.
+It provides a cost-effective and resizable capacity for industry-standard relational databases while automating common database administration tasks.
+
+how RDS is managed 
+
+what is route53
+ It essentially acts as the internet's phonebook, translating human-readable domain names (like www.example.com) into the numerical IP addresses that computers use to connect to each other. Route 53 also offers features like domain registration, DNS routing, and health checking. 
+
+what is subnet
+what is CIDR
+what is VPC
+what is private subnet and public subnet
+
+
+
+how amazon perform certificate validation
+
+what email validation and dns validation for certificate 
+
+what is load balacer and its difference 
+
+what are type of storage in aws
+what is cloudwatch
+
+how kubetnetes are monitored
+
+
+
+
+
+ AWS (EC2, S3, Lambda, CloudFront)
+ • What is EC2? How does it differ from traditional servers?
+ • What is an S3 bucket? How is it used in DevOps pipelines?
+ • Explain IAM roles and how they are used with EC2 and Lambda.
+ 
+ • What is Lambda? How is it different from EC2?
+ 
+ • Explain the lifecycle of an EC2 instance and how to automate it using user data.
+ 
+ • How does versioning work in S3 and why is it important for DevOps?
+ 
+ • What is CloudFront and how does it improve performance in deployment?
+ 
+ • How would you build a serverless web app using Lambda, S3, and CloudFront?
+ 
+ • How do you automate S3 backup and EC2 snapshot policies in a DevOps pipeline?
+ 
+ • Design a CI/CD pipeline to deploy code to Lambda with version control and rollback.
+
+
+🔸 Terraform
+ • Why is Terraform the most preferred IaC tool? How is it different from CloudFormation?
+ • What are providers and resources in Terraform?
+ 
+ • Explain terraform init, plan, apply, and destroy.
+ • What are Terraform state files? Why should they be stored securely?
+ • How do you use variables and outputs in a project?
+ • What are workspaces in Terraform?
+ • How to manage dev, staging, and prod environments?
+ • Difference between .tf and .tfvars?
+ • How to implement remote state locking?
+ • Create a reusable module for VPC, subnets, and EC2 instances.
+
+🔸 CI/CD Concepts
+ • What is CI/CD and why is it important in DevOps?
+ • Common tools used for CI/CD
+ • Explain different stages of a CI/CD pipeline
+ • Difference: Continuous Integration vs Delivery vs Deployment
+ • How do you manage rollbacks in CI/CD pipelines?
+ • Automating tests in CI pipelines
+ • What is blue-green deployment? How is it implemented?
+ • What is canary deployment?
+ • Pipeline as Code – benefits
+ • Scenario: CI/CD strategy for a multi-service app on Kubernetes
+
+🔸 Kubernetes Basics
+ • Explain Kubernetes architecture and its core components.
+ 
+ 
+ Tell me about yourself.
+2. ⁠How your day to day activities as a DevOps Engineer.
+3. ⁠What are NAT gateway?
+4. ⁠What are pre-requisites to upgrade K8s cluster?
+5. ⁠What in Pod Disruption Budget (PDB) in K8s?
+6. ⁠Write a shell script on factorial of a number.
+7. ⁠Tell me about the VPC structure setup in your project.
+8. ⁠How is the CI/CD pipeline is setup in your project? What are the security tools integrated?
+9. ⁠How do you manage them? 
+10. ⁠Write a rough pipeline script for microservices architecture. 
+11. ⁠What is multi stage docker build?
+12. ⁠What are manifest files?
+13. ⁠What is Ansible Vault?
+14. ⁠How do we make a K8s cluster highly available? 
+15. ⁠What monitoring tools are setup ? Have you set the alerts and tell me some common errors you faced related to pod management..
+16. ⁠Write a terraform script for VPC architecture for production.
+17. ⁠How many objects can a S3 bucket can store?
+18. ⁠What are IAM roles and policies?
+19. ⁠⁠What are artifacts? 
+20. ⁠What are SATS and DATS?
+21. ⁠How do you find errors in the pipelines?
+22. ⁠What are Ansible Roles?
+ 
+ Senior Cloud Operations Engineer | AWS, Azure | EKS, Jenkins, Terraform | DevOps & Automation”
+
+
+

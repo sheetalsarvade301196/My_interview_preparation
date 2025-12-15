@@ -1,0 +1,112 @@
+Tell me about yourself
+good afternoon sir , I am sheetal sarvade I have completed the bachlors in computer engineering from solapur university
+I got placed in einfochips through campus placement and since last 7 years i am working with einfochips.
+during my journey I learned lot of technologies like Java , Microsoft azure , AWS but Majorly I was part of cloud based projects 
+Since last 3+ years I am working on AWS based project.
+I am looking for more opportunities to grow professionally.
+
+
+
+
+1.What you learned in 6 years 
+how to work as part of a team and collaborate with people whose ideas may be different from your own
+How to Maintain relationship with team while working in remote environment 
+Problem solving and troubleshooting skills.
+
+2.why you stayed for 6 years - I joined einfochips as a fresher but in the very begining of my career I got great opportunities to work on latest technologies with large scale enviornment.And it was very fascinating to work with multiple teams.It was really wonderful experience with Einfochips.
+
+3.why you are leaving - I am looking for more opportunities to grow professionally.I want to explore new challenges with new work culture that would help me to expand my abilties and knowlege
+
+
+
+
+++++++++Can you tell us about your professional experience working with AWS cloud technology?
+as of now I am working with aws for more than 3 years 
+I have worked on various services like EC2 ,IAM , ELB , ACM , S3 buckets and many more 
+I have experience of working as Noc engineer and cloudops engineer 
+As a noc engineer I have experience of monitoring various aws resourcess with the help of monitoring tools such as cloudwatch, instana , grafana ,datadog . where we monitor the health of resoucres , configure alarms based on conditions 
+
+and as a cloudops engineer we perform the troubleshtooing of various issues 
+disk utilization full 
+SSL Certificate expired
+application not running
+instance being unhealthy behind LB
+IAM acess permission issues
+user authentication issues
+S3 bucket permission issues
+patching of ec2 
+ACM certificate renewal
+application installation on ec2 suck as splunk , instana , datadog 
+
+
+
+
+
++++++++++What are some of the biggest challenges you have faced while working with AWS and how did you overcome them?
+
+
+
+
+++++++++What is your experience with designing and implementing highly-available. and scalable AWS infrastructures?- 
+while working with aws, in my current project we have various enviornment like Qa staging and production
+but for production we require to maintain the infra highly available for the we have the set of EC2 instances in different availabilty zone which are in active state and also standby by.. we kept the standby instances in stopped state .
+Whenever any deployments or maintainence happens we perform it on both standby and active servers.
+and this is how we perform the activities with zero downtime
+
+and talking about scalability we also have set of servers behind ASG which are scaled as per requirements 
+also use ELB to distribute incoming traffic across the EC2 instances. This helps to ensure that the application can handle traffic even if one of the instances is unavailable. 
+
+
++++++++++++Can you discuss a particularly challenging AWS project you have worked on and how you overcame any difficulties during the project?
+Talking about aws project. I am currently working with one of largest cloud infrasture based project in eic 
+This project uses various kinds of services to manage the infra 
+such as EC2 , S3 buckets , dynamodb tables , lambdas , EKs clusters , VPC , subnets , various load balancers , 
+there are multiple enviornments like qa staging beta production
+we perform various kinds of deployments like on EC2 instances , on Dynamodb , on eks clusters 
+those deployments are performed on enviornment wise first on lower env and then on production
+for deployments we use Harness pipelines and sometimes we do manual deployments as well.
+then for monitoring of resources we use tools like cloudwatch splunk instana data dog
+
+to work on such enviornment is always a challenging task but we have a standard process for every task in the form of SOP documents and we maintain everything over confluence pages 
+
+
+++++++++++++Can you explain your experience with automating the deployment and management of AWS resources?
+for i in `cat s1.txt`; do ssh $i -t "sudo hostname ; sudo cat .bashrc | grep alias"; done
+
+
+++++++Can you give an example of a time when you had to troubleshoot a production issue in an AWS environment and how you resolved it?
+there was p0 kind of issue has occured and the client website was not working, we had a downtime of 4 hours and team was struggling to find resolution. and the issue was due to Certificate expired . We were using amazon certificate over LB side but we were also using Entrust issued certificate on server side. amazon certificates get autorenewed but the server side certificate was expired.
+I was successfully able to detect the issue and immdiately update the lastest certificate and the issue got resolved
+
+As a solution to this problem I have suggested to maintain a certificate tracker and team also implented it now we have all the track of certificates which are going to expired and when to renew those.
+
+++++++++Can you discuss your experience with AWS cost optimisation and what methods or techniques have you used to manage AWS costs effectively?
+In our project we quarterly perform the cleaup activity in which we make list of unused and stopped resources and inform the owners of resouces to take backup and then we cleanup those resources.
+
+
+++++++++Can you explain the differences between EC2 instance types and when you might use each one?
+On-Demand: Pay-per-use, no commitments.
+Reserved: 1- or 3-year commitment for discounts.
+Spot Instances: Bidding-based, cheaper but can be terminated.
+Dedicated Hosts: Physical server for compliance needs.
+
+++++++Can you discuss your experience with AWS auto-scaling and how you might set up auto-scaling for a multi-tier web application in AWS?
+Amazon EC2 Auto Scaling is a fully managed service designed to launch or terminate Amazon EC2 instances automatically to help ensure you have the correct number of Amazon EC2 instances available to handle the load for your application.
+Min capacity , desired capacity , max capacity
+
+++++++++++Can you explain the difference between S3 standard and S3 intelligent-tiering storage classes, and when you might use each one?
+S3 intelligent-tiering storage - Automatic cost optimization
+availabiltiy 99.99% for Standard, 99.9% for intelligent
+
+
+
+
+
+
+
+
+
+
+
+
+
